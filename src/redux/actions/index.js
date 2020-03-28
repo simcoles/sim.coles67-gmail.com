@@ -3,5 +3,5 @@ export const actionTypes = {
 };
 
 export const correctGuess = () => {
-  return {};
+  return { type: actionTypes.CORRECT_GUESS };
 };
